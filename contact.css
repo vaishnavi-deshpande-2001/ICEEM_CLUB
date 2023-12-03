@@ -1,0 +1,250 @@
+	.img{
+		margin-top: 20px;
+		margin-left:10px;
+		height: 250px;
+		width: 250px;
+	}
+	.des{
+		margin-top: -220px;
+		margin-left:280px;
+	}
+	.mob{
+		color: red;
+		margin-top:30px;
+		margin-left:280px;
+	}
+	.pho{
+		margin-top:-15px;
+		margin-left:280px;
+	}
+	.fax{
+		margin-top:-30px;
+		margin-left: 280px;
+	}
+	.email{
+		margin-top: -20px;
+		margin-left: 280px;
+	}
+	.border{
+		border: 1px solid grey;
+		width:600px;
+		height:300px;
+		margin-top:10px;
+		margin-left:200px;
+		background-color: lightcyan;
+		margin-left: 200px;
+	}
+	.Quick{
+		margin-left:820px;
+		border: 1px solid grey;
+		width:250px;
+		height:300px;
+		margin-top: -300px;
+		background-color: lightcyan;
+	}
+	.qcontact{
+		margin-left:50px;
+		font-size: 20px;
+      height: 20px;
+      font-family: monospace;
+      font-weight: bold;
+	}
+	.name{
+		padding:4px;
+		margin-top:5px;
+		margin-left:40px;
+		border-radius:-20px;
+		width:160px;
+
+	}
+	.name::placeholder{
+		color: grey;
+		padding: 1px;
+		
+	}
+	.email1{
+		padding:4px;
+		margin-top:20px;
+		margin-left:40px;
+		border-radius:-20px;
+		width:160px;
+
+	}
+	.email1::placeholder{
+		color: grey;
+		padding: 1px;
+		
+	}
+		.mobile{
+		padding:4px;
+		margin-top:20px;
+		margin-left:40px;
+		border-radius:-20px;
+		width:160px;
+
+	}
+	.mobile::placeholder{
+		color: grey;
+		padding: 1px;
+		
+	}
+		.text{
+		padding:4px;
+		margin-top:20px;
+		margin-left:40px;
+		border-radius:-20px;
+		width:160px;
+      color: grey;
+	}
+	.text::placeholder{
+		color: grey;
+		padding: 1px;
+		
+	}
+	.contactsubmit{
+		margin-left:50px;
+		background-color:brown;
+		color: white;
+		padding: 5px;
+		margin-top: 5px;
+		border: none;
+		display: flex;
+		width: 70px;
+	}
+		.reset{
+		margin-left:130px;
+		background-color:brown;
+		color: white;
+		padding: 5px;
+		margin-top: -25px;
+		border: none;
+		display: flex;
+		width: 70px;
+	}
+	.conus{
+		text-align: center;
+		margin-top:100px;
+		color: darkred;
+		font-family: Times new roman;
+		font-weight: bold;
+		font-style: italic;
+		font-size: 40px;
+		}
+
+.conus{
+	color: blue;
+	animation: theme 1s infinite ease-in-out;
+
+}
+
+@keyframes theme{
+	0%{color: blue;}
+	
+	50%{color: orange;}
+	80%{color: paleturquoise;}
+	100%{color:darkmagenta;}
+
+}
+.raiting{
+ position: absolute;
+ left: 50%;
+ margin-top:-25px;
+ transform: translate(-50%,-50%) rotateY(180deg);
+ display: flex;
+
+}
+.raiting input{
+ display: none;
+}
+.raiting label{
+	display: block;
+	cursor: pointer;
+	/*width: 50px;*/
+   margin-left:10px;
+}
+.raiting label:before{
+	content: '\f005';
+	font-family: fontAwesome;
+	position: relative;
+	display: block;
+	font-size:30px;
+   color: red;
+
+
+}
+.raiting label:after{
+	content: '\f005';
+	font-family: fontAwesome;
+	position: absolute;
+	display: block;
+	font-size: 30px;
+   color: purple;
+   top: 0;
+   opacity:0;
+   transition: .5s;
+   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+.raiting label:hover:after,
+.raiting label:hover ~label:after,
+.raiting input:checked ~label:after{
+opacity: 1;
+ 
+}
+.emoji{
+	margin-top:10px;
+	width: 100px;
+	height: 100px;
+	margin-left:410px;
+	border-radius:50%;
+   margin-bottom:30px;
+  overflow:hidden ;
+}
+.emoji img{
+	width:80px;
+	margin: 0 10px;
+
+}
+
+#emoji{
+	   display: flex;
+		align-items: center;
+		transform:translateX(-400px);
+	transition: 0.3s;
+}
+.feed{
+	width:200px;
+	height:70px;
+	margin-left:360px;
+	border-radius:10px;
+	margin-top:5px;
+}
+.feed::placeholder{
+	color: black;
+	font-size:15px;
+	font-family: times new roman;
+	font-weight: bold;
+	text-align: center;
+}
+.submit1{
+	text-align: center;
+	margin-left:430px;
+	border-radius:20px;
+	background-color:black;
+	color: white;
+	margin-top: 10px;
+}
+.name1{
+	margin-left: 360px;
+	height:20px;
+	width: 200px;
+	border-radius:5px;
+	margin-top: -10px;
+}
+.name1::placeholder{
+	color: black;
+	font-size:15px;
+	font-family: times new roman;
+	font-weight: bold;
+	text-align: center;
+}
